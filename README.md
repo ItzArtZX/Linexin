@@ -47,7 +47,17 @@ Hell no brother, it's still non-immutable Arch. It's lazy-friendly.
 Absolutely. Using ArchISO tool, you should be able to get the newest build of Linexin ready to go. However, remember that this is development build. It may not be as stable as selected version upoaded for download.
 
 <h2>Does it support [...] language?</h2>
-Not completely. While almost whole system will support other languages than English, apps that I've created for this distro are only in English. However, they are ready to be localized manually, but it's not my main focus.
+There are couple of fully supported languages:
+* English
+* French
+* German
+* Hindi
+* Polish
+* Portuguese (BR)
+* Russian
+* Spanish
+* Chinese
+Other languages are not yet fully supported by Linexin apps.
 
 <br><br><br>
 This is a fork of [ArchISO](https://github.com/archlinux/archiso)

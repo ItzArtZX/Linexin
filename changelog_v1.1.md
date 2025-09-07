@@ -4,7 +4,6 @@
     - handles translations for every widget with a simple dictionary file
     - has CLI option to run in a single-widget mode (linexin-center -w [widget_filename])
     - disables possibility to close app when a system command is performed (e.g. pacman -Syu)
-    - (optional) has a package available to install called "linexin-center-dk" which helps to debug potential custom widgets
 - Linexin Updater is now integrated inside Linexin Center and:
     - in multi-widget mode (default) shows updates that will be performed
     - in single-widget mode it uses old(ish) UI that allows to update without using "checkupdates" (handled by Arch-updater Extension)
@@ -19,3 +18,15 @@
 - AppimageLauncher has been deprecated. The system now uses Gear Lever for handling AppImages
 - Some flatpaks are now installed on the system if there's a connection to the internet present during installation (Zen Browser, Bottles, Faugus Launcher, Heroic Launcher, Gear Lever). If there's an update from v1.0.X to v1.1.0 present, the user will be asked if they want to install them.
 - Linexin now should support older NVIDIA cards than Turing (NV160/TUXXX), but it has not been tested properly.
+- Added support for a couple more languages:
+    - Chinese
+    - French
+    - German
+    - Hindi
+    - Polish
+    - Portuguese
+    - Russian
+    - Spanish
+- Fixed problems related to sounds not playing through minijack 
+- Added script "linexin-sound-fix-usb-dac" in /bin. The fix is specifically for the situation if there's no sound from your USB DAC until 30% volume. This script should be used with "sudo". 
+
