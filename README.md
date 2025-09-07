@@ -59,10 +59,13 @@ There are couple of fully supported languages:
   <li>Spanish</li>
   <li>Chinese</li>
 </ul><br> 
-
 Other languages are not yet fully supported by Linexin apps. <br>
 
-
+<h2>Common Issues</h2>
+ <dl>
+  <li><b>Sound is not working under 30% volume</b></li>
+  <dd>Open terminal and enter "sudo linexin-sound-fix-usb-dac". This is a common problem with some USB DACs on Linux and in that case the fix will use software mixer instead of hardware mixer.</dd>
+</dl> 
 
 <br><br><br>
 This is a fork of [ArchISO](https://github.com/archlinux/archiso)
