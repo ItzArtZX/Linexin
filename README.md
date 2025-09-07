@@ -8,6 +8,10 @@
 <h2>What is Linexin?</h2>
 Linexin is a Linux distribution based on Arch Linux. It is designed to be a fast and user-friendly operating system, pre-configured for creative professionals and gamers. Yet, thanks to Arch Linux running under the hood, it allows for the newest and greatest patches as soon as they are released. 
 
+<h2>How do download?</h2>
+Due to size being bigger than GitHub allows for release, the download is present on the Linexin's webpage only.<br>
+<a href="https://petexy.github.io/Linexin">Download Linexin</a>
+
 <h2>Why Linexin instead of...?</h2>
 If you're a creator, you probably know that running Affinity suite and DaVinci Resolve (on any other distro than RedHat Linux) can be problematic on Linux. When creating Linexin, it was it's main goal to be able to easily install them an run them without any console commands - using <strong>only GUI</strong>. So what are all other goals that Linexin wants to target?:<br><br>
  <ul>
@@ -32,13 +36,6 @@ It depends. Default UI is modified GNOME Desktop Environment to be more user-fri
   <img src="https://i.ibb.co/5wHkTYZ/gnome.png" alt="default" with="500" height="500"/><br>
   Pure GNOME look and feel<br><br>
 </p>
-
-<h2>How do download?</h2>
-Due to size being bigger than GitHub allows for release, the download is present on the Linexin's webpage only.<br>
-<a href="https://petexy.github.io/Linexin">Download Linexin</a>
-
-<h2>I can't install it on my [...] Virtual Machine</h2>
-Linexin supports only UEFI boot. If your Virtual Machine tries to install it with legacy boot, it will fail as it will try to install systemd-bootloader.
 
 <h2>Is it noob-friendly?</h2>
 Hell no brother, it's still non-immutable Arch. It's lazy-friendly.
