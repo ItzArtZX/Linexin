@@ -184,6 +184,7 @@ xf86-video-nouveau
 linexin-desktop-presets
 spice-vdagent
 linexin-center
+kinexin-desktop
 
 #showtime
 showtime
@@ -193,6 +194,8 @@ gst-plugins-ugly
 gst-plugins-base
 gst-plugins-good
 gst-plugin-pipewire
+ffmpegthumbs
+
 
 ### Legacy ###
 
